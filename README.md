@@ -15,7 +15,9 @@ git clone https://github.com/TerrificTable/scam-webside-spammer
 cd scam-webside-spammer
 ```
 and then install the requirements
-if you have done that you can eighter run the py file and edit it however you like or you can use the .exe file i compiled both of these are the same code if you didnt change the .py file
+if you have done that you can eighter run the py file and edit it however you like or you can use the .exe file i compiled both of these are the same code if you didnt change the .py file    
+or...    
+just run the .bat file (if you want to execute the .exe file use run_exe.bat if you want to use the .py file use run_py.bat)
 
 # What does it do
 it uses requests to spamm the given url with random generated logins (email and password)   
