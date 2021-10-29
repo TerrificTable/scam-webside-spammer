@@ -9,7 +9,13 @@ so you have to install all requirements your self (idk if the exe work without t
 python -m pip install requests
 python -m pip install colorama
 ```
-and if you have done that you can eighter run the py file and edit it however you like or you can use the .exe file i compiled both of these are the same code if you didnt change the .py file
+oh yea before that you should eighter download the [release](https://github.com/TerrificTable/scam-webside-spammer/releases) or git clone the repo
+```
+git clone https://github.com/TerrificTable/scam-webside-spammer
+cd scam-webside-spammer
+```
+and then install the requirements
+if you have done that you can eighter run the py file and edit it however you like or you can use the .exe file i compiled both of these are the same code if you didnt change the .py file
 
 # What does it do
 it uses requests to spamm the given url with random generated logins (email and password)   
