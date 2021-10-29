@@ -17,7 +17,7 @@ cd scam-webside-spammer
 and then install the requirements
 if you have done that you can eighter run the py file and edit it however you like or you can use the .exe file i compiled both of these are the same code if you didnt change the .py file    
 or...    
-just run the .bat file (if you want to execute the .exe file use run_exe.bat if you want to use the .py file use run_py.bat)
+run the run.bat file and select the option you want to use (or run the individual run_py/run_exe files) !!! IMPORTANT: the exe/py and bat files have to be in the same folder !!!
 
 # What does it do
 it uses requests to spamm the given url with random generated logins (email and password)   
