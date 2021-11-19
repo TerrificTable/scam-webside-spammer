@@ -8,6 +8,7 @@ so you have to install all requirements your self (idk if the exe work without t
 ```
 python -m pip install requests
 python -m pip install colorama
+python -m pip install faker
 ```
 oh yea before that you should eighter download the [release](https://github.com/TerrificTable/scam-webside-spammer/releases) or git clone the repo
 ```
