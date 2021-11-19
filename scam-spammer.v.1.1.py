@@ -1,4 +1,5 @@
 from colorama import Fore, Style
+from faker import Faker
 import threading
 import requests
 import random
@@ -27,8 +28,12 @@ times = 0
 def post(url, arg1="login", arg2="password"):
     try:
         global times
-        names = open("./names.txt", "r")
-        for name in names:
+        while 1:
+            fake = Faker()
+            name = fake.name()
+            name = str(name).split()
+            name = name[0]
+
             name = str(name).replace("\n", "") + \
                 str(random.choice(endings)).replace("\n", "")
             password = "".join(random.choice(string.ascii_letters)
@@ -112,7 +117,7 @@ if __name__ == "__main__":
         os.system(
             f"title Scam Webside Login Spammer ^| URL: {url} ^| {len(threads)} Threads")
         print(f" {log} Threads started")
-        data = {"content": f"URL"}
+        data = {"username": "Webscam"}
         data["embeds"] = [
             {
                 "description": url,
